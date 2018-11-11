@@ -1,0 +1,215 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    overflow: auto;
+    flex-direction: column;
+}
+
+.cont>.header {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    opacity: 0.5;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    height: 20vw;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.cont>.header>.logo {
+    margin: 0;
+    padding: 0;
+    font-size: 7vw;
+    flex: 2;
+    font-family: sans-serif;
+}
+
+.cont>.header>.link {
+    flex: 1;
+    font-size: 3vw;
+    font-family: monospace;
+    transition: 0.5s;
+}
+
+.container0>.header>.link0 {
+    background-color: black;
+    color: white;
+}
+
+.container1>.header>.link1 {
+    background-color: black;
+    color: white;
+}
+
+.cont>.header>.link:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+.cont {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    background-size: cover;
+    background-position: center;
+}
+
+.container0 {
+    background-image: url(cover0.jpg);
+}
+
+.container0>.cover {
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    font-size: 2vw;
+    font-family: sans-serif;
+}
+
+.container0>.cover>.text {
+    margin: 0;
+    padding: 3vw;
+    align-self: center;
+}
+
+.container0>.cover>.text>h1, .container0>.cover>.text>h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.container0>.context {
+    height: 20px;
+    margin: 0;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    font-size: 3vw;
+    background-color: white;
+    
+}
+
+.container0>.context>h1 {
+    margin: 0;
+}
+
+.container1 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #383838;
+    overflow: hidden;
+}
+
+.container1>.header {
+    opacity: 1;
+    height: 20vw;
+}
+
+.container1>.cover {
+    margin: 0;
+    padding: 15px;
+    display: flex;
+    height: auto;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    z-index: -1;
+    overflow: auto;
+}
+
+.container1>.cover>.ph {
+    margin: 0;
+    padding: 0;
+    background-color: #505050;
+    border: 1px solid black;
+    border-radius: 15px;
+    height: 350px;
+    width: 350px;
+    background-size: cover;
+    background-position: center;
+}
+
+.container1>.cover>.ph0 {
+    background-image: url(ph0.jpg);
+}
+.container1>.cover>.ph1 {
+    background-image: url(ph1.jpg);
+}
+.container1>.cover>.ph2 {
+    background-image: url(ph2.jpg);
+}
+.container1>.cover>.ph3 {
+    background-image: url(ph3.jpg);
+}
+.container1>.cover>.ph4 {
+    background-image: url(ph4.jpg);
+}
+.container1>.cover>.ph5 {
+    background-image: url(ph5.jpg);
+}
+.container1>.cover>.ph6 {
+    background-image: url(ph6.jpg);
+}
+
+.container2 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.container2>.header {
+    opacity: 1;
+    background-color: #808090;
+}
+
+.container2>.header>.logo {
+    color: white;
+}
+
+.container2>.header>.link2 {
+    color: white;
+    background-color: black;
+}
+
+.container2>.context {
+    margin: 0;
+    padding: 2vw;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    border: 1px solid black;
+    color: black;
+    font-family: sans-serif;
+    overflow: auto;
+    font-size: calc(2vw + 10px);
+}
+
+.container2>.context>h5 {
+    padding: 2vw;
+}
+
+.container2>.context>h5>bold {
+    font-size: calc(6vw + 10px);
+    font-family: 'Dancing Script', cursive;
+    line-height: 3px;
+}
